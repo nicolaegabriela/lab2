@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface Settings : NSObject
-
+@property (nonatomic) BOOL showDemo;
+@property (nonatomic) BOOL sendNotifications;
 @end
